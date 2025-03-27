@@ -1,0 +1,86 @@
+Data types:
+
+   - int => integer  (9)
+   - float => Floating point (9.9)	
+   - str => String ("mohsen mohammed")
+   - bool => Boolean (True,False)
+
+-------------------------------------------------------------------
+
+Variables:
+
+   x = 10                         # Integer
+   y = 3.14                      # Float
+   name = "mohsen"     # String
+   is_active = True        # Boolean
+ 
+Rules for Naming Variables:
+  - Must start with a letter or _
+  - Can contain letters, numbers, and _
+  - Cannot be a keyword
+
+------------------------------------------------------------------------
+Type Casting:
+
+ Implicit Type Casting (Automatic Conversion)
+  -Python automatically converts smaller data types to larger ones.
+
+ Explicit Type Casting (Manual Conversion)
+  -You can manually convert types using functions 
+      int(),   float(),   str(), etc
+
+----------------------------------------------------------------------------------
+input and output:
+
+   Input:
+     The input() function is used to take user input as a string.
+   output:
+      - Print ( )
+      - print ( f "   " )
+
+----------------------------------------------------------------------------------------------
+
+   Math library, strings:
+
+   - Math:
+
+    math.sqrt(x)	       Square root of x	                                      math.sqrt(25) → 5.0
+    math.pow(x, y)	   x raised to the power y	                   math.pow(2, 3) → 8.0
+    math.factorial(x)	           Factorial of x	                                      math.factorial(5) → 120
+   math.ceil(x)	  Rounds up to nearest integer    	math.ceil(3.2) → 4
+   math.floor(x)	  Rounds down to nearest integer	math.floor(3.9) → 3
+  math.log(x, base)	   Logarithm of x to given base	                   math.log(8, 2) → 3.0
+   math.pi	                           Constant π (3.14159...)	                    math.pi → 3.14159
+   math.e	                           Constant e (2.71828...)	                    math.e → 2.71828
+
+   - Strings:
+
+         Length	len("Python")	6
+
+        .upper()	      Converts to uppercase	                  "hello".upper() → "HELLO"
+       .lower()	      Converts to lowercase	                    "HELLO".lower() → "hello"
+     .replace(a, b)	        Replace substring	                     "Hello".replace("H", "J") → "Jello"
+    
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+conditions and loops :
+   1. Conditions (if-elif-else)
+         Used to make decisions in code
+
+   2. Loops
+         Used to repeat code
+        
+            for :
+                 For Loop (when you know how many times to repeat)
+                
+               for x in range (  ,  ):
+                          ............................
+           while:
+                 While Loop (when you don't know how many times to repeat)
+               while condition is true:
+                      .................................
+
+
+
