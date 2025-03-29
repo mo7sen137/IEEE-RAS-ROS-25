@@ -1,0 +1,75 @@
+collection : Single "Variable" used to store multiple values
+  
+  # List    [ ]    Ordered, changeable, allows duplicates
+  # Set     { }    Unordered, unchangeable (but can add/remove), no duplicates
+  # Tuple ( )    Ordered, unchangeable, allows duplicates
+
+When to Use:
+
+- List: When you need ordered collection that may change.
+- Set: When you need unique elements and don't care about order
+- Tuple: When you need ordered collection that won't change.
+
+ex...
+student = {
+    "name": "Alice",
+    "grades": [85, 90, 78],  # List of grades
+    "subjects": ("Math", "Science"),  # Fixed subjects
+    "id_numbers": {12345, 67890}     # Unique IDs
+}
+
+-----------------------------------------------------------------------------------------------------------------------
+1. Defining a Function
+Use the def keyword followed by the function name and parentheses ().
+
+2. Calling a Function
+To execute a function, use its name followed by parentheses ().
+
+3. Function Parameters & Arguments
+Parameters are variables listed inside the parentheses in the function definition.
+
+Arguments are the actual values passed when calling the function.
+
+4. Return Statement
+A function can return a value using return.
+
+If no return is specified, the function returns None.
+
+5. Types of Arguments
+a) Positional Arguments
+Passed in the correct order.
+b) Keyword Arguments
+Passed with parameter names (order doesn’t matter).
+c) Default Arguments
+If no argument is provided, a default value is used.
+d) Variable-Length Arguments (*args & **kwargs)
+*args → Accepts any number of positional arguments (stored as a tuple).
+**kwargs → Accepts any number of keyword arguments (stored as a dictionary).
+
+6. Lambda (Anonymous) Functions
+Small, one-line functions defined with lambda.
+Often used with map(), filter(), and sorted().
+
+7. Scope of Variables
+Local Variables: Defined inside a function (accessible only within the function).
+Global Variables: Defined outside a function (accessible everywhere).
+
+8. Recursion (Function Calling Itself)
+A function can call itself (useful for problems like factorial, Fibonacci, etc.).
+
+---------------------------------------------------------------------------------------------------------------------------------
+Random Numbers in Python
+
+1. Importing the random Module
+First, import the module
+
+2. Generating Random Numbers
+a) random.random() → Float between 0.0 and 1.0 
+b) random.randint(a, b) → Integer between a and b (inclusive)
+c) random.uniform(a, b) → Float between a and b
+d) random.randrange(start, stop, step) → Random integer from range(start, stop, step)
+
+3. Random Choices & Shuffling
+a) random.choice(seq) → Random element from a sequence
+d) random.shuffle(seq) → Shuffles a list in place
+
