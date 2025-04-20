@@ -1,0 +1,5 @@
+Hello world! This is a simple text file.
+It contains some words that will be counted.
+Hello again - this is line two.
+The quick brown fox jumps over the lazy dog.
+Hello world, one more time!

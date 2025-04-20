@@ -1,0 +1,23 @@
+1. Main Function
+
+-- Use if __name__ == '__main__': to make code executable only when run directly (not when imported)
+-- Serves as the program entry point
+
+2. File Input/Output
+
+Basic Operations:
+
+-- open() - Open files (use with for auto-closing)
+-- Modes: 'r' (read), 'w' (write), 'a' (append), 'b' (binary)
+
+Example:
+  with open('file.txt', 'r') as file:
+    content = file.read()
+
+
+
+1. What They Are:
+
+-- Python files (.py extension) containing reusable code (functions, classes, variables).
+
+-- Example: math.py is a built-in module for mathematical operations.
