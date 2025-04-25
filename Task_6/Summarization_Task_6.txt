@@ -1,0 +1,33 @@
+Object-Oriented Programming (OOP) is a programming paradigm that organizes code into objects
+,which are instances of classes. Python fully supports OOP, making it easier to structure complex programs.
+
+OOP makes Python code organized, reusable, and efficient. Mastering classes, inheritance, polymorphism, 
+and encapsulation is key to writing clean, scalable applications.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Special Methods (Dunder Methods)
+Python uses __method__() for operator overloading and object representation.
+----------------------------------------------------------------------------------------------------------------------------------
+
+1. Classes and Objects:
+
+      A class is a blueprint for creating objects.
+
+      An object is an instance of a class.
+-----------------------------------------------------------------------------------------------------------------------------------
+2. The Four Pillars of OOP:
+
+  a) Encapsulation:
+      . Bundling data (attributes) and methods (functions) inside a class.
+      . Restricting direct access using private attributes (_ or __ prefix).
+----------------------------------------------------------------------------------------------------------------------------------
+  b) Inheritance
+      . A class can inherit properties and methods from another class.
+      . Parent (Base) class → Child (Derived) class.
+----------------------------------------------------------------------------------------------------------------------------------
+  c) Polymorphism:
+     . The same method can behave differently in different classes.
+     . Achieved via method overriding or duck typing.
+----------------------------------------------------------------------------------------------------------------------------------
+  d) Abstraction
+     . Hiding complex details and exposing only necessary features.
+     . In Python, achieved using abstract classes (ABC module).
